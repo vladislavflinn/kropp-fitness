@@ -3,19 +3,51 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>template</title>
+	<link rel="stylesheet" href="styles.css">
+	<title>Kropp Fitness</title>
 </head>
 
 <body>
 	<div class="wrapper">
-		<header class="header">header</header>
+		<header class="header">
+			<a href="/" class="header__logo-link">
+				<img class="header__logo-image" src="assets/images/logo.png" alt="Kropp Fitness Logo" width="136" height="26"
+					loading="lazy">
+			</a>
+			<nav class="header__menu">
+				<ul class="header__menu-list">
+					<li class="header__menu-item">
+						<a href="/" class="header__menu-link is-current">Home</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="/" class="header__menu-link">Pages</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="/" class="header__menu-link">Portfolio</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="/" class="header__menu-link">Blog</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="/" class="header__menu-link">Shop</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__actions">
+				<button class="header__button button" type="button">Book now</button>
+				<button class="header__burger-button" type="button">
+					<span class="header__burger-button-line"></span>
+					<span class="header__burger-button-line"></span>
+					<span class="header__burger-button-line"></span>
+				</button>
+			</div>
+		</header>
 		<main class="main">
-			<div class="block">text</div>
+			main
 		</main>
 		<footer class="footer">footer</footer>
 	</div>
-	<script src="index.js"></script>
+	<script src="script.js"></script>
 </body>
